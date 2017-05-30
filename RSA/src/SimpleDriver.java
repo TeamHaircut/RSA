@@ -5,7 +5,7 @@ import java.util.Random;
 //javac Driver.java
 //java Driver bitLength || java Driver
 //default bitLength: 1024 bits
-public class Driver {
+public class SimpleDriver {
 
 	public static void main(String[] args) {
 		int defaultLength = 1024;
