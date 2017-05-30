@@ -1,0 +1,28 @@
+Basic RSA Algorithm used
+/*
+		 * let x represent the bit length
+		 * let certainty equal to 40, c
+		 * create a random number, rnd
+		 * create two, x bit prime integers, p and q
+		 * let n equal p multiplied by q
+		 * create a BigInteger equal to "65537", e
+		 * let phi equal to (p-1)*(q-1)
+		 * let d equal the modInverse of e, phi
+		 * 
+		 * 
+		 * e,n (Public Key)
+		 * d,n (Private Key)
+		 * 
+		 * encryption
+		 * =================================
+		 * create a string
+		 * convert that string into a bigInteger, msg
+		 * let cipherText equal our msg modPow our public key
+		 * 
+		 * decryption
+		 * =================================
+		 * let decipherText equal our cipherText modPow our private key
+		 * convert decipherText to clear text string
+		 * 
+		 * print clearText
+		 */
