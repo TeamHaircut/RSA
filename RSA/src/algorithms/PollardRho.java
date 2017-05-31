@@ -1,4 +1,4 @@
-package factoralgorithms;
+package algorithms;
 
 /******************************************************************************
  *   Usage:
