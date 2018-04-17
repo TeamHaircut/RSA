@@ -1,11 +1,12 @@
 Basic RSA Algorithm used
 /*
 		 * let x represent the bit length
-		 * let certainty equal to 40, c
+		 * let certainty c equal to 40
 		 * create a random number, rnd
 		 * create two, x bit prime integers, p and q
 		 * let n equal p multiplied by q
-		 * create a BigInteger equal to "65537", e
+		 * create a BigInteger e 
+		 * let e equal "65537"
 		 * let phi equal to (p-1)*(q-1)
 		 * let d equal the modInverse of e, phi
 		 * 
